@@ -353,7 +353,9 @@ without adding extra HTML markup. */
     cursor: pointer;
 }
 
-/*------------------------------OPTIMIZE OPERATIONS----------------------------------*/
+/* ============================================================================================= */
+/*                                       OPTIMIZE OPERATIONS                                     */
+/* ============================================================================================= */
 
 .optimize-section {
     max-width: 100%;
@@ -367,6 +369,7 @@ without adding extra HTML markup. */
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-bottom: 8rem;
+    max-width: 1400px;
 }
 
 .optimize-left {
@@ -1102,12 +1105,11 @@ padding. */
 
     /*--------------NAVBAR---------------*/
 
-    .navbar {
+    .navbar-section {
         background-color: white;
         color: #fff;
         height: 150px;
         margin: 0 8rem;
-
     }
 
     .navbar-info {
@@ -1121,9 +1123,43 @@ padding. */
         height: 100%;
     }
 
-    .navbar ul {
+    .nav-ul {
         display: flex;
     }
+
+
+    .nav-list a {
+        font-family: 'Poppins', sans-serif;
+        color: black;
+        padding: 10px;
+        margin: 0 7px;
+        font-size: var(--font-size-xs);
+    }
+
+    .nav-list a::after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 0;
+        height: 0;
+        background: rgba(0, 0, 139, 0.2);
+        border-radius: 50%;
+        transform: translate(-50%, -50%);
+        transition: width 0.3s ease, height 0.3s ease;
+    }
+
+    .nav-list a:hover::after {
+        width: 125%;
+        height: 125%;
+    }
+
+    #TekScale {
+        width: 150px;
+        height: auto;
+        margin: 0;
+    }
+
 
 
     /*---------------HERO-----------------*/
@@ -1263,13 +1299,32 @@ padding. */
     }
 
 
-    /*---------OPTIMIZE OPERATIONS----------*/
+    /*---------OPTIMIZE OPERATIONS 1024----------*/
 
+    .optimize-section {
+        width: 100%;
+        max-width: 1200px;
+        height: 500px;
+        /* padding: 2rem; */
+        margin-top: 8rem;
+        margin-bottom: 6rem;
+        /* display: grid;
+        grid-template-columns: 1fr 1fr; */
+    }
+
+    .optimize-operations {
+        width: 100%;
+        max-width: 1200px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        margin-bottom: 8rem;
+        gap: 12rem;
+    }
 
     .optimize-left {
         display: flex;
         justify-content: center;
-        align-items: center;
         position: relative;
         display: inline-block;
         height: 100%;
@@ -1278,11 +1333,11 @@ padding. */
 
     #optimize-heading {
         font-family: 'Poppins', sans-serif;
-        font-size: var(--font-size-xl);
+        font-size: var(--font-size-lg);
         text-align: left;
         font-weight: light 300;
         color: rgb(0, 0, 139);
-        line-height: 3.2rem;
+        line-height: 3rem;
         margin-bottom: 1rem;
     }
 
@@ -1300,13 +1355,38 @@ padding. */
         justify-content: center;
         align-items: flex-start;
         height: 100%;
-        width: 70%;
+        width: 100%;
     }
 
     #optimize-btn:hover {
         transform: scale(1.07);
         transition: transform 0.5s;
         cursor: pointer;
+
+    }
+
+
+    #optimize-img {
+        border-radius: 10px;
+        /* box-shadow: -45px -45px 0px rgba(0, 0, 139); */
+        width: 400px;
+        height: auto;
+        position: relative;
+        z-index: 1;
+        margin-left: 2rem;
+    }
+
+    .optimize-left::before {
+        content: '';
+        position: absolute;
+        top: -50px;
+        left: -50px;
+        width: 400px;
+        height: 400px;
+        background: url('/images/Tech Background.jpg') no-repeat center center;
+        background-size: contain;
+        border-radius: 10px;
+        margin-left: 12rem;
 
     }
 
@@ -1587,6 +1667,7 @@ padding. */
         color: #fff;
         height: 150px;
         max-width: 2200px;
+        margin: 0 auto;
     }
 
     .navbar-info {
@@ -1640,6 +1721,7 @@ padding. */
         width: 150px;
         height: auto;
         margin: 0;
+
     }
 
 
@@ -1821,14 +1903,34 @@ padding. */
 
     /*-----------OPTIMIZE OPERATIONS 1600-----------*/
 
+
+    .optimize-section {
+        max-width: 100%;
+        height: 500px;
+        margin-top: 10rem;
+        margin-bottom: 10rem;
+    }
+
+
+    .optimize-operations {
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        margin-bottom: 8rem;
+        gap: 1rem;
+    }
+
     .optimize-left {
         display: flex;
-        justify-content: center;
-        align-items: center;
+        justify-content: end;
+        align-items: end;
         position: relative;
         display: inline-block;
+        width: 80%;
         height: 100%;
         margin-left: 8rem;
+
     }
 
 
@@ -1844,16 +1946,17 @@ padding. */
 
     #optimize-text {
         font-family: 'Poppins', sans-serif;
-        font-size: var(--font-size-sm);
+        font-size: var(--font-size-md);
         text-align: left;
         font-weight: 300;
+        line-height: 2.5rem;
         color: 141414;
     }
 
     #optimize-img {
         border-radius: 10px;
         /* box-shadow: -45px -45px 0px rgba(0, 0, 139); */
-        width: 400px;
+        width: 425px;
         height: auto;
         position: relative;
         z-index: 1;
@@ -1865,8 +1968,8 @@ padding. */
         position: absolute;
         top: -50px;
         left: -50px;
-        width: 400px;
-        height: 400px;
+        width: 425px;
+        height: 425px;
         background: url('/images/Tech Background.jpg') no-repeat center center;
         background-size: contain;
         border-radius: 10px;
@@ -1879,6 +1982,7 @@ padding. */
         align-items: flex-start;
         height: 100%;
         width: 70%;
+
     }
 
     #optimize-btn {
