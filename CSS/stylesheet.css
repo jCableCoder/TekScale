@@ -1113,7 +1113,7 @@ padding. */
     }
 
     .navbar-info {
-        max-width: 1200px;
+        max-width: 100%;
         margin: 0 auto;
         overflow: auto;
         padding: 0;
@@ -1155,7 +1155,7 @@ padding. */
     }
 
     #TekScale {
-        width: 150px;
+        width: 125px;
         height: auto;
         margin: 0;
     }
@@ -1282,6 +1282,7 @@ padding. */
         font-family: 'Poppins', sans-serif;
         color: black;
         font-size: var(--font-size-smish);
+        line-height: 1.6rem;
         font-weight: 700;
         margin-top: 1.5rem;
         background-color: FAFAFC;
@@ -1473,6 +1474,7 @@ padding. */
     }
 
     .empower-business {
+        width: 100%;
         display: grid;
         grid-template-columns: 1fr 1fr;
         margin-top: 6rem;
