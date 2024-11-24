@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/utilities.css">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="css/featuresstyles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Afacad:wght@400;500;600;700&display=swap">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200; 300;400;500;700;800;900&display=swap">
+    <link rel="icon" type="image/x-icon" href="./images/favicon.png" />
+    <title>TekScale | Infrastructure as a Service </title>
+</head>
+
+<body>
+
+    <!-- ======================================================================   -->
+    <!--                                NAVBAR                                    -->
+    <!-- ======================================================================   -->
+
+    <section class="navbar-section">
+
+        <div class="navbar-info">
+            <a href="index.html"><img src="/images/TekScale.png" id="TekScale" alt="logo"></a>
+
+            <nav>
+                <ul class="nav-ul">
+                    <li class="nav-list"><a href="index.html">Home</a></li>
+                    <li class="nav-list"><a href="features.html">Features</a></li>
+                    <li class="nav-list"><a href="index.html">Pricing</a></li>
+                    <li class="nav-list"><a href="index.html">Contact</a></li>
+                </ul>
+            </nav>
+
+        </div>
+
+    </section>
+
+    <!-- ======================================================================   -->
+    <!--                                HERO                                      -->
+    <!-- ======================================================================   -->
+
+    <section class="hero-section">
+
+        <div class="hero-container">
+
+            <div class="hero-text">
+                <h1 id="hero-scale-h1">Scale Your Business</h1>
+                <p id="scale-text">TekScale delivers the power and agility you need to stay ahead in
+                    today’s competitive digital landscape.</p>
+                <a href="features.html" class="read-more-button">Read More</a>
+            </div>
+
+            <div class="hero-form">
+                <h2 class="consultation">Request a Consultation</h2>
+                <form name="contact" metho="POST" netlify-honeypot="bot-field" data-netlify="true">
+                    <input type="hidden" name="form-name" value="contact" />
+                    <p class='hidden'>
+                        <label>Don't fill out if you're human: <input name='bot-field' />
+                        </label>
+                    </p>
+                    <div class="form-control">
+                        <input type="text" name="name" id="name" placeholder="Name" required>
+                    </div>
+                    <div class="form-control">
+                        <input type="text" name="company" id="company" placeholder="Company Name" required>
+                    </div>
+                    <div class="form-control">
+                        <input type="email" name="email" id="Email" placeholder="Email">
+                    </div>
+                    <input type="submit" value="Send" class="send-button">
+                </form>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- <hr class="fading-hr"> -->
+
+    <!-- ======================================================================   -->
+    <!--                           OUR SOLUTIONS                                  -->
+    <!-- =======================================================================  -->
+
+    <section class="solutions-section">
+
+        <!-------------Heading----------->
+        <div class="our-solutions">
+            <h3 class="solutions-heading">
+                Our Solutions
+            </h3>
+        </div>
+
+        <!-------- Flip Boxes ------->
+        <div class="solutions-boxes">
+
+            <!-- Flip Box 1 -->
+            <div class="flip-container">
+                <div class="flip-box">
+                    <!-- Front side -->
+                    <div class="flip-front">
+                        <img src="/images/VirtServer.png" class="virt-server-img" alt="Virtual Server" />
+                        <h3 class="box-front-h3">Compute Power</h3>
+                    </div>
+                    <!-- Back side -->
+                    <div class="flip-back">
+                        <p>Virtual servers provide scalable and secure infrastructure for modern businesses.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Flip Box 2 -->
+            <div class="flip-container">
+                <div class="flip-box">
+                    <!-- Front side -->
+                    <div class="flip-front">
+                        <img src="/images/Network Security.png" class="virt-server-img" alt="Virtual Server" />
+                        <h3 class="box-front-h3">Network Security</h3>
+                    </div>
+                    <!-- Back side -->
+                    <div class="flip-back">
+                        <p>Advanced firewall and security features include DDoS protection, data encryption and access
+                            control.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Flip Box 3 -->
+            <div class="flip-container">
+                <div class="flip-box">
+                    <!-- Front side -->
+                    <div class="flip-front">
+                        <img src="/images/Data Management.png" class="virt-server-img" alt="Virtual Server" />
+                        <h3 class="box-front-h3">Data Management</h3>
+                    </div>
+                    <!-- Back side -->
+                    <div class="flip-back">
+                        <p>Secure, scalable cloud storage with lightning-fast access to your data.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Flip Box 4 -->
+            <div class="flip-container">
+                <div class="flip-box">
+                    <!-- Front side -->
+                    <div class="flip-front">
+                        <img src="/images/Load Balancing.png" class="virt-server-img" alt="Virtual Server" />
+                        <h3 class="box-front-h3">Load Balancing</h3>
+                    </div>
+                    <!-- Back side -->
+                    <div class="flip-back">
+                        <p>Seamlessly distribute traffic across multiple servers to ensure high availability and
+                            performance.</p>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+    <hr class="fading-hr">
+
+    <!-- ======================================================================   -->
+    <!--                         OPTIMIZE OPERATIONS                              -->
+    <!-- =======================================================================  -->
+
+    <section class="optimize-section">
+
+        <div class="optimize-operations">
+
+            <div class="optimize-left">
+                <img src="/images/Optimize.jpg" id="optimize-img" alt="Optimize Operations" />
+            </div>
+
+            <div class="optimize-right">
+                <span class="optmize-span">
+                    <h3 id="optimize-heading">
+                        Optimize Operations and Accelerate Your Growth
+                    </h3>
+                    <p id="optimize-text">
+                        Stop letting outdated infrastructure hold your business back.
+                        With TekScale, you'll enjoy reliable, scalable cloud solutions that free up your resources
+                        and keep your focus where it belongs – on growing your business.
+                    </p>
+                    <div id="optimize-btn-div">
+                        <a href="features.html" id="optimize-btn">Learn More</a>
+                    </div>
+                </span>
+            </div>
+
+    </section>
+
+    <!-- <hr class="fading-hr"> -->
+
+    <!-- TESTIMONIAL -->
+
+    <section class="testimonial-section">
+
+        <div class="testimonial-container">
+
+            <p id="testimonial">“TekScale has completely <span id="highlight">transformed</span> the way we manage our
+                infrastructure. Their cloud solutions have provided us with the scalability and reliability we needed
+                to expand quickly. We’ve been able to focus on <span id="highlight">growing our business</span> without
+                worrying about our IT needs.”</p>
+
+        </div>
+
+    </section>
+
+    <!-- ======================================================================   -->
+    <!--                         EMPOWER YOUR BUSINESS                            -->
+    <!-- ======================================================================   -->
+
+    <section class="empower-section">
+
+        <div class="empower-business">
+
+            <div class="empower-left">
+                <span class="empower-span">
+                    <h3 id="empower-heading">
+                        Empower Your Business with Seamless Scalability
+                    </h3>
+                    <p id="empower-text">
+                        TekScale provides the robust infrastructure your business needs to thrive in a hyper-competitive
+                        digital landscape. With our dynamic cloud solutions, you’ll stay agile, cut costs and easily
+                        adapt to new opportunities. From startups to enterprises, we ensure that your IT evolves
+                        with you, empowering long-term success.
+                    </p>
+                    <a href="features.html" id="empower-btn">Learn More</a>
+                </span>
+            </div>
+
+            <div class="empower-right">
+                <img src="/images/Seamless Scalability.jpg" id="scalability-img" alt="Seamless Scalability" />
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ======================================================================   -->
+    <!--                         POWER YOUR FUTURE                                -->
+    <!-- =======================================================================  -->
+
+    <section class="power">
+        <div class="container">
+            <div class="power-text-column">
+                <h2 id="power-future-heading">
+                    Power Your Future
+                </h2>
+                <p id="start-scaling">
+                    Start scaling with confidence today.
+                </p>
+            </div>
+            <a href="features.html" class="power-btn">Read More</a>
+        </div>
+        <!-- <img src="/images/cloud.png" alt="cloud"> -->
+        </div>
+    </section>
+
+    <!-- ======================================================================   -->
+    <!--                                FOOTER                                    -->
+    <!-- ======================================================================   -->
+
+    <footer>
+
+        <div class="footer-container">
+
+            <div class="logo-div">
+                <a href="index.html"><img src="/images/TekScale.png" id="TekScale" alt="logo"></a>
+                <div>
+                    <p id="copyright">&copy Copyright 2024</p>
+                </div>
+            </div>
+
+            <nav class="footer-nav">
+                <ul class="footer-list">
+                    <li class="footer-li"><a href="index.html">Home</a></li>
+                    <li class="footer-li"><a href="index.html">Features</a></li>
+                    <li class="footer-li"><a href="index.html">Pricing</a></li>
+                    <li class="footer-li"><a href="index.html">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="social">
+
+                <div>
+                    <h2 id="connect">Connect with us</h2>
+                </div>
+
+                <div class="social-icons">
+                    <a href="https://www.github.com"><i class="fab fa-github fa-2x"
+                            style="margin-right: 1.5rem;"></i></a>
+                    <a href="https://www.facebook.com"><i class="fab fa-facebook fa-2x"
+                            style="margin-right: 1.5rem;"></i></a>
+                    <a href="https://www.instagram.com"><i class="fab fa-instagram fa-2x"
+                            style="margin-right: 1.5rem;"></i></a>
+                    <a href="https://www.twitter.com"><i class="fab fa-x-twitter fa-2x"></i></a>
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <script>
+        // Select all flip containers and add click event listeners
+        document.querySelectorAll('.flip-container').forEach(container => {
+            container.addEventListener('click', function () {
+                container.classList.toggle('clicked');
+            });
+        });
+    </script>
+
+</body>
+
+</html>

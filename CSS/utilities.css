@@ -1,0 +1,242 @@
+/* The purpose of the utilities.css file is to provide reusable styles 
+(such as colors, fonts, margins, paddings, and layouts) across the website. 
+This file includes utility classes and global styles that can easily be appled throughout the site 
+to maintain consistency. These types of files typically focus on common design patterns. */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+:root {
+    --primary-color: #d3135a;
+    --secondary-color: #21b573;
+    --dark-color: #b0144d;
+    --light-color: #f4f4f4;
+    --success-color: #5cb85c;
+}
+
+:root {
+    --primary-color: #1360d3;
+    --secondary-color: #21b573;
+    --dark-color: #b0144d;
+    --light-color: #f4f4f4;
+    --success-color: #5cb85c;
+    --error-color: #d9534f;
+    --font-size-6xl: 6rem;
+    --font-size-5xl: 5rem;
+    --font-size-4xl: 4rem;
+    --font-size-3xl: 3rem;
+    --font-size-2xl: 2.8rem;
+    --font-size-xl: 2.6rem;
+    --font-size-lg: 2rem;
+    --font-size-ml: 1.8rem;
+    --font-size-md: 1.6rem;
+    --font-size-sm: 1.4rem;
+    --font-size-smish: 1.3rem;
+    --font-size-xs: 1.2rem;
+    --font-size-xxs: 1.1rem;
+    --font-size-xxxs: 1rem;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+/* .container {
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 40px;
+} */
+
+.btn .btn-outline {
+    display: inline-block;
+    padding: 10px 30px;
+    cursor: pointer;
+    background-color: #d3135a;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+
+/* ------ Text color ---------- */
+
+
+
+.bg-secondary,
+.btn-secodary {
+    background-color: var(--secondary-color);
+    color: #fff;
+}
+
+.bg-light,
+.btn-light {
+    background-color: var(--light-color);
+
+}
+
+.bg-dark,
+.btn-dark {
+    background-color: var(--dark-color);
+    color: #fff;
+}
+
+.bg-primary a,
+.btn-primary a,
+.bg-secondary a,
+.btn-secodary a,
+.bg-dark a,
+.btn-dark a {
+    color: #fff;
+}
+
+.text-primary {
+    color: var(--primary-color);
+}
+
+.text-secondary {
+    color: var(--secondary-color);
+}
+
+.text-light {
+    color: var(--light-color)
+}
+
+.text-dark {
+    color: var(--dark-color)
+}
+
+
+
+/*----------Alert--------*/
+.alert {
+    background-color: var(--light-color);
+    padding: 10px 20px;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.alert-success {
+    background-color: var(--success-color);
+    color: #fff;
+}
+
+.alert-error {
+    background-color: var(--error-color);
+    color: #fff;
+}
+
+.alert i {
+    margin-right: 10px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.grid-3 {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.my-1 {
+    margin: 1rem 0;
+
+}
+
+.my-2 {
+    margin: 1.5rem 0;
+
+}
+
+.my-3 {
+    margin: 2rem 0;
+
+}
+
+.my-4 {
+    margin: 3rem 0;
+
+}
+
+.my-5 {
+    margin: 4rem 0;
+
+}
+
+.m-1 {
+    margin: 1rem 0;
+}
+
+.m-2 {
+    margin: 1.5rem 0;
+}
+
+.m-3 {
+    margin: 2rem 0;
+}
+
+.m-4 {
+    margin: 3rem 0;
+
+}
+
+.m-5 {
+    margin: 4rem 0;
+}
+
+.py-1 {
+    padding: 1rem 0;
+
+}
+
+.py-2 {
+    padding: 1.5rem 0;
+
+}
+
+.py-3 {
+    padding: 2rem 0;
+
+}
+
+.py-4 {
+    padding: 3rem 0;
+
+}
+
+.py-5 {
+    padding: 4rem 0;
+
+}
+
+.fading-hr {
+    height: 2px;
+    border: none;
+    background-image: linear-gradient(to right, rgba(14, 14, 14, 0), rgb(209, 205, 205), rgba(211, 202, 202, 0));
+    width: 100%;
+    opacity: 2.5;
+    margin: 20px 0;
+
+}
