@@ -1884,7 +1884,7 @@ padding. */
     #optimize-btn {
         display: inline-block;
         font-family: "Poppins", sans-serif;
-        font-size: var(--font-size-xs);
+        font-size: var(--font-size-xxxs);
         font-weight: 600;
         padding: 12px 30px;
         cursor: pointer;
