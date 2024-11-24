@@ -1873,6 +1873,14 @@ padding. */
         margin-left: 12rem;
     }
 
+    .optimize-right {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        height: 100%;
+        width: 70%;
+    }
+
     #optimize-btn {
         display: inline-block;
         font-family: "Poppins", sans-serif;
