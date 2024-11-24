@@ -1682,7 +1682,7 @@ padding. */
 
     #hero-scale-h1 {
         font-family: 'Poppins', sans-serif;
-        font-size: var(--font-size-2xl);
+        font-size: var(--font-size-xl);
         font-weight: 600;
     }
 
@@ -1725,7 +1725,7 @@ padding. */
         color: #333;
         border-radius: 10px;
         box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
-        margin: 1rem 1rem 1rem 8rem;
+        margin: 1rem 1rem 1rem 10rem;
     }
 
     .hero-form .form-control {
@@ -1776,7 +1776,7 @@ padding. */
 
     .solutions-heading {
         font-family: 'Poppins', sans-serif;
-        font-size: var(--font-size-xl);
+        font-size: var(--font-size-lgx);
         text-align: center;
         font-weight: 600;
         color: #333;
@@ -1804,8 +1804,8 @@ padding. */
 
     .flip-container {
         perspective: 1000px;
-        width: 325px;
-        height: 325px;
+        width: 300px;
+        height: 300px;
         margin: 20px auto;
         font-family: 'Poppins', sans-serif;
     }
