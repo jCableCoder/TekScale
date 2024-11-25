@@ -1987,8 +1987,8 @@ padding. */
     #optimize-img {
         border-radius: 10px;
         /* box-shadow: -45px -45px 0px rgba(0, 0, 139); */
-        width: 350px;
-        height: 350px;
+        width: 400px;
+        height: 400px;
         position: relative;
         z-index: 1;
         margin-left: 12rem;
@@ -1999,8 +1999,8 @@ padding. */
         position: absolute;
         top: -50px;
         left: -50px;
-        width: 350px;
-        height: 350px;
+        width: 400px;
+        height: 400px;
         background: url('/images/Tech Background.jpg') no-repeat center center;
         background-size: contain;
         border-radius: 10px;
