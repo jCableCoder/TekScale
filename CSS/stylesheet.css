@@ -592,7 +592,7 @@ padding. */
     border: 1px solid #fff;
     border-radius: 10px;
     text-align: center;
-    width: 30%;
+    max-width: 100%;
     margin-top: 1rem;
 }
 
@@ -1378,7 +1378,7 @@ padding. */
 
     #optimize-text {
         font-family: 'Poppins', sans-serif;
-        font-size: var(--font-size-sm);
+        font-size: var(--font-size-smish);
         line-height: 2rem;
         text-align: left;
         font-weight: 300;
@@ -1402,7 +1402,6 @@ padding. */
         cursor: pointer;
         background-color: rgb(0, 0, 139);
         color: #fff;
-        border: 1px solid #fff;
         border-radius: 10px;
         text-align: center;
         max-width: 30%;
@@ -1418,7 +1417,7 @@ padding. */
     #optimize-img {
         border-radius: 10px;
         /* box-shadow: -45px -45px 0px rgba(0, 0, 139); */
-        width: 350px;
+        max-width: 350px;
         height: auto;
         position: relative;
         z-index: 1;
@@ -1492,15 +1491,15 @@ padding. */
 
 
     .empower-section {
-        width: 100%;
+        max-width: 1200px;
         height: 500px;
-        padding: 2rem;
+        padding: 0;
         margin-top: 5rem;
         margin-bottom: 10rem;
     }
 
     .empower-business {
-        width: 100%;
+        max-width: 100%;
         display: grid;
         grid-template-columns: 1fr 1fr;
         margin-top: 6rem;
@@ -1512,8 +1511,15 @@ padding. */
         justify-content: center;
         align-items: center;
         height: 100%;
-        width: 100%;
-        margin-left: 4rem;
+        width: 435px;
+        margin-left: 5rem;
+        margin-top: 3rem;
+        box-sizing: border-box;
+        /* Includes padding in the width */
+        overflow-wrap: break-word;
+        /* Break long words */
+        white-space: normal;
+        /* Prevent single-line overflow */
     }
 
     #empower-heading {
@@ -1528,7 +1534,8 @@ padding. */
 
     #empower-text {
         font-family: 'Poppins', sans-serif;
-        font-size: var(--font-size-sm);
+        font-size: var(--font-size-smish);
+        line-height: 2rem;
         text-align: left;
         font-weight: 300;
         /* color: rgb(0, 0, 139); */
@@ -1539,11 +1546,12 @@ padding. */
         display: flex;
         justify-content: center;
         align-items: end;
-        width: 100%;
-        height: 100%;
+        max-width: 100%;
+        max-height: 100%;
         position: relative;
         display: inline-block;
-        margin-left: 8rem;
+        margin-left: 2rem;
+        margin-top: 6rem;
     }
 
     .empower-right::before {
@@ -1551,8 +1559,8 @@ padding. */
         position: absolute;
         top: -50px;
         right: -50px;
-        width: 400px;
-        height: 400px;
+        max-width: 350px;
+        max-height: 350px;
         background: url('/images/Tech Background.jpg') no-repeat center center;
         background-size: contain;
         border-radius: 10px;
@@ -1562,10 +1570,14 @@ padding. */
     #scalability-img {
         border-radius: 10px;
         /* box-shadow: -35px -35px 0px rgba(0, 0, 139); */
-        width: 400px;
+        max-width: 350px;
         height: auto;
         position: relative;
         z-index: 1;
+    }
+
+    .empower-span {
+        max-width: 100%;
     }
 
     #empower-btn {
@@ -1577,10 +1589,10 @@ padding. */
         cursor: pointer;
         background-color: rgb(0, 0, 139);
         color: #fff;
-        border: 1px solid #fff;
         border-radius: 10px;
         text-align: center;
-        max-width: 30%;
+        width: 35%;
+        max-height: 4rem;
         margin-top: 1rem;
     }
 
@@ -1588,6 +1600,50 @@ padding. */
         transform: scale(1.07);
         cursor: pointer;
     }
+
+    /*------------POWER YOUR FUTURE 1024----------------*/
+
+
+    #power-future-heading {
+        font-family: 'Poppins', sans-serif;
+        font-size: var(--font-size-lg);
+        text-align: center;
+        font-weight: 600;
+        margin-top: 10rem;
+        color: white;
+    }
+
+    #empower-text {
+        font-family: 'Poppins', sans-serif;
+        font-size: var(--font-size-md);
+        text-align: left;
+        font-weight: 300;
+        /* color: rgb(0, 0, 139); */
+        color: 141414;
+    }
+
+    .power-btn {
+        display: inline-block;
+        padding: 1rem;
+        cursor: pointer;
+        background-color: white;
+        color: rgb(0, 0, 139);
+        border: 1px solid #fff;
+        border-radius: 10px;
+        text-align: center;
+        width: 40%;
+        margin-top: 14rem;
+        font-family: 'Poppins', sans-serif;
+        font-size: var(--font-size-xxs);
+        font-weight: 600;
+    }
+
+    .power-btn:hover {
+        transform: scale(1.07);
+        cursor: pointer;
+    }
+
+
 
 
 }
