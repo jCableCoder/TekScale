@@ -2347,6 +2347,7 @@ padding. */
         display: grid;
         grid-template-columns: 1fr 1fr;
         align-items: center;
+        justify-items: center;
         margin-bottom: 8rem;
         gap: 1rem;
     }
@@ -2359,7 +2360,7 @@ padding. */
         display: inline-block;
         width: 80%;
         height: 100%;
-        margin-left: 8rem;
+        margin-left: 6rem;
     }
 
 
@@ -2411,6 +2412,7 @@ padding. */
         align-items: flex-start;
         height: 100%;
         width: 70%;
+
 
     }
 
