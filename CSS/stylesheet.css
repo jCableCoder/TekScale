@@ -718,7 +718,9 @@ padding. */
     transform: translateY(-15px);
 }
 
-/*----------------------------------FOOTER------------------------------------*/
+/* ============================================================================================= */
+/*                                              FOOTER                                           */
+/* ============================================================================================= */
 
 .footer {
     background-color: white;
@@ -729,7 +731,7 @@ padding. */
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
     overflow: auto;
-    padding: 5rem 15rem;
+    /* padding: 5rem 15rem; */
     justify-content: center;
     align-items: center;
 }
@@ -3046,17 +3048,59 @@ padding. */
 
     /*------------FOOTER 1600--------------*/
 
+
+    .footer-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+        overflow: auto;
+        padding: 5rem 15rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .logo-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 275px;
+        border-right: 0.5px solid black;
+        margin: 0;
+    }
+
+    .logo-div a {
+
+        display: flex;
+        justify-content: center;
+
+        margin: 0;
+        padding: 0;
+        text-align: center;
+
+    }
+
+    #tekscale-footer-logo {
+        width: 60%;
+        height: auto;
+        margin: 0;
+        display: block;
+
+    }
+
+
     #copyright {
         font-family: 'Poppins', sans-serif;
         font-weight: 400;
         font-style: italic;
         font-size: 1rem;
+        text-align: center;
+        margin: 0;
+        padding: 0;
     }
 
-    #TekScale-footer {
-        width: 180px;
-        height: auto;
-    }
+
 
     .footer-container li {
         font-family: 'Poppins', sans-serif;
@@ -3121,19 +3165,14 @@ padding. */
         border-right: 0.5px solid black;
     }
 
-    .logo-div {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        height: 265px;
-        border-right: 0.5px solid black;
-    }
+
 
     .social-icons i:hover {
         transform: scale(1.25);
         transition: transform 0.1s;
     }
+
+
 
 
 }
