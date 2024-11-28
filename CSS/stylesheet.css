@@ -2483,12 +2483,50 @@ padding. */
         margin-right: 10rem;
     }
 
+    .navigation a::after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 0;
+        height: 0;
+        background: rgba(0, 0, 139, 0.2);
+        border-radius: 50%;
+        transform: translate(-50%, -50%);
+        transition: width 0.3s ease, height 0.3s ease;
+
+    }
+
+    .navigation a {
+        position: relative;
+        /* Necessary for pseudo-element positioning */
+        text-decoration: none;
+        /* Remove underline */
+        color: black;
+        /* Default text color */
+        padding: 10px 15px;
+        /* Add spacing for clickability */
+        transition: color 0.3s ease;
+        /* Smooth text color transition */
+        font-weight: 500;
+        /* Ensure consistent font weight */
+    }
+
     .navigation a:hover {
-        border-bottom: solid 2px #333;
+
         color: black;
     }
 
+    .navigation a:hover::after {
+        width: 120%;
+        height: 120%;
 
+    }
+
+    .navigation a:hover {
+        color: rgb(0, 0, 139);
+        font-weight: 600;
+    }
 
 
     #tekscale-logo {
