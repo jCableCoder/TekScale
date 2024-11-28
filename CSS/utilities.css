@@ -37,6 +37,7 @@ to maintain consistency. These types of files typically focus on common design p
     --font-size-xxs: 1.1rem;
     --font-size-xxxs: 1rem;
     --font-size-xxxxs: 0.8rem;
+    --font-size-xxxxxs: 0.6rem;
 }
 
 body {
