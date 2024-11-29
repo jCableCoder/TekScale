@@ -939,7 +939,7 @@ padding. */
     .navigation a {
         font-family: 'Poppins', sans-serif;
         color: black;
-        font-size: var(--font-size-xxxxxs);
+        font-size: var(--font-size-xxxxs);
         position: relative;
         text-decoration: none;
         color: black;
@@ -956,7 +956,7 @@ padding. */
 
 
     #tekscale-logo {
-        max-width: 45%;
+        max-width: 50%;
         height: auto;
         margin-left: 1.5rem;
     }
@@ -978,6 +978,7 @@ padding. */
         color: #f4f4f4;
         position: relative;
         margin: 0 auto;
+        overflow-x: hidden;
 
     }
 
