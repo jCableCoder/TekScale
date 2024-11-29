@@ -910,34 +910,60 @@ padding. */
         color: #fff;
         height: auto;
         width: 100vw;
-        height: 25vw;
+        padding: 1rem 0;
         display: grid;
         grid-template-columns: 1fr 2fr;
         align-items: center;
+        justify-items: center;
+        margin: 0;
     }
 
     .navigation {
-        margin-right: 1rem;
+        width: 100%;
+        margin-right: 3rem;
     }
 
     .navigation ul {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-right: 0;
+    }
+
+    .navigation a::after {
+        display: none;
+
     }
 
     .navigation a {
         font-family: 'Poppins', sans-serif;
         color: black;
-        font-size: var(--font-size-xxxxs);
+        font-size: var(--font-size-xxxxxs);
+        position: relative;
+        text-decoration: none;
+        color: black;
+        padding: 0;
+        transition: color 0.3s ease;
+        /* Smooth text color transition */
+        font-weight: 500;
+    }
+
+    .nav-list a:hover::after {
+        width: 125%;
+        height: 125%;
     }
 
 
     #tekscale-logo {
-        max-width: 65%;
+        max-width: 45%;
         height: auto;
-        margin-left: 1rem;
+        margin-left: 1.5rem;
     }
+
+
+
+
 
     /*---------------HERO 600-----------------*/
 
