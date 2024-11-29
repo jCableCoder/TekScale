@@ -614,7 +614,7 @@ padding. */
 
 /*-----------------------------POWER YOUR FUTURE -------------------------------*/
 
-.power {
+.power-section {
     grid-template-columns: 4fr, auto;
     background-color: rgb(0, 0, 139);
     position: relative;
@@ -659,8 +659,8 @@ padding. */
     margin-top: 14rem;
 }
 
-.power::before,
-.power::after {
+.power-section::before,
+.power-section::after {
     content: '';
     position: absolute;
     /* top: 800; */
@@ -675,7 +675,7 @@ padding. */
 }
 
 /* Apply grid to the container within .power */
-.container {
+.power-container {
     display: grid;
     grid-template-columns: 4fr 2fr;
     /* Two columns: one for the text, one for the button */
@@ -687,7 +687,7 @@ padding. */
     margin-top: 3.5rem;
 }
 
-.container {
+.power-container {
     max-width: 1400px;
     margin: 0 auto;
     overflow: auto;
@@ -2888,7 +2888,7 @@ padding. */
 
 
     #tekscale-logo {
-        max-width: 20%;
+        max-width: 25%;
         height: auto;
         margin-left: 15rem;
     }
@@ -3248,7 +3248,7 @@ padding. */
 
 
     .empower-section {
-        max-width: 2100px;
+        width: 100vw;
         max-height: 500px;
         padding: 0;
         margin-bottom: 8rem;
@@ -3265,7 +3265,7 @@ padding. */
 
 
     .empower-left {
-        display: flex;
+        display: block;
         justify-content: center;
         align-items: center;
         max-height: 100%;
