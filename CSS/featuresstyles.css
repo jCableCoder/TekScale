@@ -453,10 +453,85 @@
     #tools {
         margin-top: 0;
         font-family: 'Poppins', sans-serif;
-        font-size: var(--font-size-md);
+        font-size: var(--font-size-medsm);
         line-height: 2.7rem;
     }
 
+    /*------------------DIFFERENTIATORS 1200-----------------*/
+
+    .diff-section {
+        width: 100vw;
+        height: auto;
+        padding: 6rem 0;
+        background-color: rgb(244, 239, 239);
+    }
+
+    .diff-text-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 20rem;
+    }
+
+    #diff-h1 {
+        font-family: 'Poppins', sans-serif;
+        font-size: var(--font-size-lg);
+        font-weight: 600;
+        color: rgb(0, 0, 139);
+        margin-bottom: 1.5rem;
+    }
+
+    #diff-paragraph {
+        font-family: 'Poppins', sans-serif;
+        font-size: var(--font-size-smish);
+        font-weight: 400;
+        line-height: 2.5rem;
+        margin-top: 0;
+        text-align: center;
+    }
+
+    #thrive {
+        font-family: 'Poppins', sans-serif;
+        font-size: var(--font-size-smish);
+        font-weight: 600;
+        color: rgb(0, 0, 139);
+        margin-bottom: 1.5rem;
+    }
+
+    .diff-columns-div {
+        width: 100vw;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-top: 5rem;
+        padding: 0 10rem;
+    }
+
+    .diff-images {
+        width: 90%;
+        height: auto;
+        margin-bottom: 1.5rem;
+        border-radius: 5px;
+    }
+
+    .diff-h2 {
+        font-family: 'Poppins', sans-serif;
+        font-size: var(--font-size-medlg);
+        font-weight: 600;
+        color: rgb(0, 0, 139);
+        margin-bottom: 1rem;
+        text-align: left;
+    }
+
+    .diff-details {
+        font-family: 'Poppins', sans-serif;
+        font-size: var(--font-size-smish);
+        font-weight: 400;
+        line-height: 2.3rem;
+        margin-top: 0;
+        text-align: left;
+        color: rgb(74, 74, 74);
+    }
 
 }
 
@@ -475,6 +550,7 @@
         color: #fff;
         width: 100vw;
         height: auto;
+        padding: 2rem 0;
         display: grid;
         grid-template-columns: 1fr 2fr;
         align-items: center;
@@ -593,4 +669,84 @@
         font-size: var(--font-size-md);
         line-height: 2.5rem;
     }
+
+    /*------------------DIFFERENTIATORS 1681-----------------*/
+
+    .diff-section {
+        width: 100vw;
+        height: auto;
+        padding: 8rem 0;
+        background-color: rgb(244, 239, 239);
+    }
+
+    .diff-text-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 20rem;
+    }
+
+    #diff-h1 {
+        font-family: 'Poppins', sans-serif;
+        font-size: var(--font-size-lg);
+        font-weight: 600;
+        color: rgb(0, 0, 139);
+        margin-bottom: 1.5rem;
+        animation: slideInFromLeft 0.5s ease-in;
+    }
+
+    #diff-paragraph {
+        font-family: 'Poppins', sans-serif;
+        font-size: var(--font-size-smish);
+        font-weight: 400;
+        line-height: 2.5rem;
+        margin-top: 0;
+        text-align: center;
+    }
+
+    #thrive {
+        font-family: 'Poppins', sans-serif;
+        font-size: var(--font-size-smish);
+        font-weight: 600;
+        color: rgb(0, 0, 139);
+        margin-bottom: 1.5rem;
+    }
+
+    .diff-columns-div {
+        width: 100vw;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-top: 5rem;
+        padding: 0 14rem;
+    }
+
+    .diff-images {
+        width: 75%;
+        height: auto;
+        margin-bottom: 1.5rem;
+        border-radius: 5px;
+    }
+
+    .diff-h2 {
+        font-family: 'Poppins', sans-serif;
+        font-size: var(--font-size-md);
+        font-weight: 600;
+        color: rgb(0, 0, 139);
+        margin-bottom: 1rem;
+        text-align: left;
+    }
+
+    .diff-details {
+        font-family: 'Poppins', sans-serif;
+        font-size: var(--font-size-smish);
+        font-weight: 400;
+        line-height: 2.3rem;
+        width: 90%;
+        margin-top: 0;
+        text-align: left;
+        color: rgb(74, 74, 74);
+    }
+
+
 }

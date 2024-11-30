@@ -3370,7 +3370,7 @@ padding. */
     #scale-text {
         max-width: 100%;
         font-family: 'Poppins', sans-serif;
-        font-size: var(--font-size-md);
+        font-size: var(--font-size-medsm);
         font-weight: 500;
         line-height: 2.7rem;
         box-sizing: border-box;
@@ -3587,7 +3587,7 @@ padding. */
 
     #optimize-text {
         font-family: 'Poppins', sans-serif;
-        font-size: var(--font-size-sm);
+        font-size: var(--font-size-smish);
         text-align: left;
         font-weight: 300;
         color: 141414;
@@ -3636,7 +3636,6 @@ padding. */
         box-sizing: border-box;
     }
 
-
     .empower-left {
         display: block;
         justify-content: center;
@@ -3650,12 +3649,8 @@ padding. */
         /* Break long words */
         white-space: normal;
         /* Prevent single-line overflow */
-
     }
 
-    /* .empower-span {
-        max-width: 100%;
-    } */
 
     #empower-heading {
         font-family: 'Poppins', sans-serif;
@@ -3669,10 +3664,9 @@ padding. */
 
     #empower-text {
         font-family: 'Poppins', sans-serif;
-        font-size: var(--font-size-sm);
+        font-size: var(--font-size-smish);
         text-align: left;
         font-weight: 300;
-        /* color: rgb(0, 0, 139); */
         color: 141414;
     }
 
