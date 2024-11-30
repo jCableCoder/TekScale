@@ -3309,10 +3309,10 @@ padding. */
         height: 125%;
     }
 
-    #TekScale {
-        width: 150px;
-        height: auto;
-        margin: 0 auto;
+    #tekscale-logo {
+        margin-left: 13rem;
+        max-width: 30%;
+
     }
 
     .read-more-button {
@@ -3397,9 +3397,9 @@ padding. */
     .hero-form {
         position: relative;
         top: 60px;
-        height: 400px;
-        width: 400px;
-        padding: 2rem 2.5rem 2rem 2.5rem;
+        width: 40rem;
+        height: 42rem;
+        padding: 2.3rem 2.5rem 2rem 2.5rem;
         z-index: 100;
         animation: slideInFromRight .5s ease-in;
         font-size: var(--font-size-md);
@@ -3431,7 +3431,7 @@ padding. */
         font-family: 'Poppins', sans-serif;
         font-size: var(--font-size-md);
         font-weight: 600;
-        margin-bottom: -10px;
+
         text-align: center;
     }
 
