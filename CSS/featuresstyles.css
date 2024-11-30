@@ -330,6 +330,133 @@
         align-items: center;
     }
 
+}
+
+/* ================================================================================================= */
+/*                                            DESKTOPS                                               */
+/* ================================================================================================= */
+
+@media only screen and (min-width: 1200px) and (max-width: 1680px) {
+
+    /*------------------NAVBAR 1200-----------------*/
+
+    .navbar {
+        background-color: white;
+        color: #fff;
+        width: 100vw;
+        height: auto;
+    }
+
+    .navigation ul {
+        font-family: 'Poppins', sans-serif;
+        color: black;
+        font-size: var(--font-size-smish);
+        font-weight: 500;
+        display: flex;
+        justify-content: space-evenly;
+        margin-right: 10rem;
+    }
+
+    .navigation a::after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 0;
+        height: 0;
+        background: rgba(0, 0, 139, 0.2);
+        border-radius: 50%;
+        transform: translate(-50%, -50%);
+        transition: width 0.3s ease, height 0.3s ease;
+
+    }
+
+    .navigation a {
+        position: relative;
+        /* Necessary for pseudo-element positioning */
+        text-decoration: none;
+        color: black;
+        padding: 10px 15px;
+        transition: color 0.3s ease;
+        /* Smooth text color transition */
+        font-weight: 500;
+    }
+
+    .navigation a:hover {
+
+        color: black;
+    }
+
+    .navigation a:hover::after {
+        width: 120%;
+        height: 120%;
+
+    }
+
+    .navigation a:hover {
+        color: rgb(0, 0, 139);
+        font-weight: 600;
+    }
+
+
+    #tekscale-features-logo {
+        max-width: 30%;
+        height: auto;
+        margin-left: 13rem;
+    }
+
+    /*------------------FEATURES BANNER 1200-----------------*/
+
+    .features-banner-section {
+        width: 100vw;
+        height: auto;
+        background: linear-gradient(to right, darkblue 30%, rgba(0, 0, 0, 0)),
+            url('/Images/FeaturesTech.jpg');
+        background-position: center center !important;
+        background-size: cover !important;
+        background-repeat: no-repeat !important;
+        background-color: var(--primary-color);
+        color: #f4f4f4;
+        position: relative;
+        margin: 0 auto;
+        padding-bottom: 5rem;
+    }
+
+    .features-text {
+        margin-bottom: 1rem;
+        padding-top: 3rem;
+        margin-left: 12rem;
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        align-items: center;
+    }
+
+
+    .h1-div {
+        animation: slideInFromTop 0.5s ease-in;
+        margin-bottom: 0;
+    }
+
+    #features-h1 {
+        font-family: 'Poppins', sans-serif;
+        font-size: var(--font-size-xl);
+        font-weight: 600;
+        margin-bottom: 0;
+
+    }
+
+    .tools-class {
+        width: 40%;
+        animation: slideInFromBottom 0.5s ease-in;
+    }
+
+    #tools {
+        margin-top: 0;
+        font-family: 'Poppins', sans-serif;
+        font-size: var(--font-size-md);
+        line-height: 2.7rem;
+    }
+
 
 }
 

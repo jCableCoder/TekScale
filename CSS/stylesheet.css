@@ -3251,7 +3251,7 @@ padding. */
     .navbar {
         background-color: white;
         color: #fff;
-        height: 150px;
+        height: auto;
         width: 100vw;
         height: auto;
         padding: 2rem 0;
@@ -3259,7 +3259,6 @@ padding. */
 
     .navbar-info {
         width: 100%;
-        /* max-width: 1430px; */
         margin: 0 auto;
         overflow: auto;
         padding: 0;
@@ -3267,13 +3266,6 @@ padding. */
         justify-content: space-between;
         align-items: center;
         height: 100%;
-    }
-
-    .nav-ul {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
     }
 
     .nav-list a {
@@ -3378,9 +3370,9 @@ padding. */
     #scale-text {
         max-width: 100%;
         font-family: 'Poppins', sans-serif;
-        font-size: var(--font-size-sm);
+        font-size: var(--font-size-md);
         font-weight: 500;
-        line-height: 2.8rem;
+        line-height: 2.7rem;
         box-sizing: border-box;
         /* Includes padding in the width */
         overflow-wrap: break-word;
