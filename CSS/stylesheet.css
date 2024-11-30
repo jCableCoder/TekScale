@@ -1636,7 +1636,6 @@ padding. */
         /* Gradient for the border */
         border-image-slice: 1;
         /* Ensures full gradient is applied */
-
         border-right: none;
     }
 
@@ -1647,8 +1646,6 @@ padding. */
         margin: 0;
         display: grid;
         justify-self: center !important;
-
-
     }
 
     #copyright {
@@ -1699,8 +1696,6 @@ padding. */
         /* Ensures full gradient is applied */
         border-right: none;
     }
-
-
 
     .social {
         display: flex;
@@ -3474,7 +3469,7 @@ padding. */
 
     .solutions-heading {
         font-family: 'Poppins', sans-serif;
-        font-size: var(--font-size-xl);
+        font-size: var(--font-size-lg);
         text-align: center;
         font-weight: 600;
         color: #333;
@@ -3500,6 +3495,15 @@ padding. */
         height: 16rem;
         margin: 2rem auto;
         font-family: 'Poppins', sans-serif;
+    }
+
+    .box-front-h3 {
+        font-family: 'Poppins', sans-serif;
+        color: black;
+        font-size: var(--font-size-sm);
+        font-weight: 700;
+        margin-top: 1.5rem;
+
     }
 
     .flip-back {
@@ -3543,17 +3547,17 @@ padding. */
         position: relative;
         display: inline-block;
         height: 100%;
-        margin-left: 2rem;
+        margin-left: 4rem;
     }
 
     #optimize-img {
         border-radius: 10px;
         /* box-shadow: -45px -45px 0px rgba(0, 0, 139); */
-        width: 400px;
-        height: 400px;
+        width: 23vw;
+        height: auto;
         position: relative;
         z-index: 1;
-        margin-left: 12rem;
+        margin-left: 14rem;
     }
 
     .optimize-left::before {
@@ -3561,12 +3565,12 @@ padding. */
         position: absolute;
         top: -50px;
         left: -50px;
-        width: 400px;
-        height: 400px;
+        width: 23vw;
+        height: 23vw;
         background: url('/images/Tech Background.jpg') no-repeat center center;
         background-size: contain;
         border-radius: 10px;
-        margin-left: 12rem;
+        margin-left: 14rem;
         background-clip: padding-box;
         overflow: hidden;
     }
@@ -3612,7 +3616,7 @@ padding. */
         border: 1px solid #fff;
         border-radius: 10px;
         text-align: center;
-        max-width: 14rem;
+        width: 10rem;
         margin-top: 1rem;
     }
 
@@ -3621,7 +3625,7 @@ padding. */
         cursor: pointer;
     }
 
-    /*---------EMPOWER YOUR BUSINESS 1681-----------*/
+    /*---------EMPOWER YOUR BUSINESS 1200-----------*/
 
 
     .empower-section {
@@ -3664,8 +3668,8 @@ padding. */
     #empower-heading {
         font-family: 'Poppins', sans-serif;
         color: rgb(0, 0, 139);
-        font-size: var(--font-size-lgx);
-        line-height: 3.3rem;
+        font-size: var(--font-size-lg);
+        line-height: 2.7rem;
         font-weight: 600;
         text-align: left;
         margin-bottom: 1rem;
@@ -3696,18 +3700,18 @@ padding. */
         position: absolute;
         top: -50px;
         right: -50px;
-        width: 400px;
-        height: 400px;
+        width: 22vw;
+        height: 22vw;
         background: url('/images/Tech Background.jpg') no-repeat center center;
         background-size: contain;
         border-radius: 10px;
-        margin-left: 12rem;
+        margin-left: 10rem;
     }
 
     #scalability-img {
         border-radius: 10px;
         /* box-shadow: -35px -35px 0px rgba(0, 0, 139); */
-        width: 400px;
+        width: 20vw;
         height: auto;
         position: relative;
         z-index: 1;
@@ -3725,7 +3729,7 @@ padding. */
         border: 1px solid #fff;
         border-radius: 10px;
         text-align: center;
-        width: 25%;
+        width: 10rem;
         margin-top: 1rem;
     }
 
@@ -3734,7 +3738,7 @@ padding. */
         cursor: pointer;
     }
 
-    /*------------FOOTER 1600--------------*/
+    /*------------FOOTER 1200--------------*/
 
 
     .footer-container {
@@ -3762,7 +3766,6 @@ padding. */
 
         display: flex;
         justify-content: center;
-
         margin: 0;
         padding: 0;
         text-align: center;
@@ -3774,9 +3777,7 @@ padding. */
         height: auto;
         margin: 0;
         display: block;
-
     }
-
 
     #copyright {
         font-family: 'Poppins', sans-serif;
@@ -3787,8 +3788,6 @@ padding. */
         margin: 0;
         padding: 0;
     }
-
-
 
     .footer-container li {
         font-family: 'Poppins', sans-serif;
@@ -3852,8 +3851,6 @@ padding. */
         align-items: center;
         border-right: 0.5px solid black;
     }
-
-
 
     .social-icons i:hover {
         transform: scale(1.25);
