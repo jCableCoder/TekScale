@@ -347,7 +347,7 @@
         background-color: white;
         color: #fff;
         width: 100vw;
-        height: 150px;
+        height: auto;
         display: grid;
         grid-template-columns: 1fr 2fr;
         align-items: center;
@@ -393,7 +393,6 @@
     }
 
     .navigation a:hover {
-
         color: black;
     }
 
@@ -429,7 +428,7 @@
         color: #f4f4f4;
         position: relative;
         margin: 0 auto;
-        padding-bottom: 4rem;
+        padding-bottom: 5rem;
     }
 
     .features-text {
