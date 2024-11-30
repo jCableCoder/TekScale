@@ -961,10 +961,6 @@ padding. */
         margin-left: 1.5rem;
     }
 
-
-
-
-
     /*---------------HERO 600-----------------*/
 
     .hero-section {
@@ -978,8 +974,10 @@ padding. */
         color: #f4f4f4;
         position: relative;
         margin: 0 auto;
-        overflow-x: hidden;
+    }
 
+    .hidden {
+        display: none;
     }
 
     .hero-section::before {
@@ -1094,9 +1092,9 @@ padding. */
 
     .consultation {
         font-family: 'Poppins', sans-serif;
-        font-size: var(--font-size-xxs);
+        font-size: var(--font-size-xs);
         font-weight: 600;
-        margin-bottom: 0;
+        margin-bottom: 1rem;
         text-align: center;
     }
 
@@ -1628,7 +1626,13 @@ padding. */
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        border-bottom: 0.5px solid black;
+        border-bottom: 2px solid transparent;
+        /* Placeholder for the border */
+        border-image: linear-gradient(to right, transparent, black, transparent);
+        /* Gradient for the border */
+        border-image-slice: 1;
+        /* Ensures full gradient is applied */
+
         border-right: none;
     }
 
@@ -1683,7 +1687,12 @@ padding. */
         display: flex;
         justify-content: center;
         align-items: center;
-        border-bottom: 0.5px solid black;
+        border-bottom: 2px solid transparent;
+        /* Placeholder for the border */
+        border-image: linear-gradient(to right, transparent, black, transparent);
+        /* Gradient for the border */
+        border-image-slice: 1;
+        /* Ensures full gradient is applied */
         border-right: none;
     }
 
@@ -3724,6 +3733,10 @@ padding. */
         overflow: visible;
         padding: 0 20px;
         height: 100%;
+    }
+
+    .hidden {
+        display: none;
     }
 
     .hero-text {
