@@ -4132,32 +4132,30 @@ padding. */
 
 
     .optimize-section {
-        max-width: 100%;
-        height: 500px;
-        margin-top: 10rem;
+        width: 100vw;
+        height: auto;
+        margin-top: 12rem;
         margin-bottom: 10rem;
+        padding: 0;
     }
-
 
     .optimize-operations {
         max-width: 100%;
         display: grid;
         grid-template-columns: 1fr 1fr;
         align-items: center;
-        justify-items: center;
+        /* justify-items: flex-start; */
         margin-bottom: 8rem;
         gap: 1rem;
     }
 
     .optimize-left {
-        display: flex;
-        justify-content: end;
-        align-items: end;
+        display: block;
         position: relative;
-        display: inline-block;
-        width: 80%;
+        width: 100%;
         height: 100%;
-        margin-left: 4rem;
+        margin-left: 16rem;
+        margin-top: 2rem;
     }
 
 
@@ -4204,11 +4202,10 @@ padding. */
     }
 
     .optimize-right {
-        display: flex;
-        justify-content: center;
-        align-items: flex-start;
+        display: block;
         height: 100%;
         width: 70%;
+        padding-right: 5rem;
 
 
     }
