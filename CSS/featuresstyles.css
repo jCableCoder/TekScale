@@ -558,6 +558,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         justify-content: center;
+        gap: 2rem;
     }
 
     .adv-cloud-left {
