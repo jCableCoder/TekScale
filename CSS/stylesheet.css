@@ -4154,14 +4154,14 @@ padding. */
         position: relative;
         width: 100%;
         height: 100%;
-        margin-left: 16rem;
+        margin-left: 14rem;
         margin-top: 2rem;
     }
 
 
     #optimize-heading {
         font-family: 'Poppins', sans-serif;
-        font-size: var(--font-size-xl);
+        font-size: var(--font-size-lg);
         text-align: left;
         font-weight: light 300;
         color: rgb(0, 0, 139);
@@ -4174,7 +4174,7 @@ padding. */
         font-size: var(--font-size-md);
         text-align: left;
         font-weight: 300;
-        line-height: 2.5rem;
+        line-height: 2.4rem;
         color: 141414;
     }
 
