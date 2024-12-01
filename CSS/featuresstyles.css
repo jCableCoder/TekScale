@@ -510,7 +510,7 @@
     .diff-categories {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: flex-start;
         padding: 0;
 
     }
@@ -534,13 +534,13 @@
 
     .diff-details {
         font-family: 'Poppins', sans-serif;
-        font-size: var(--font-size-xs);
+        font-size: var(--font-size-xxs);
         font-weight: 400;
         line-height: 2.3rem;
         margin-top: 0;
-        text-align: center;
+        text-align: left;
         color: rgb(74, 74, 74);
-        padding: 0 2rem 0 2rem;
+        padding: 0 1rem 0 0;
     }
 
     /*------------------ADVANCED CLOUD 1200-----------------*/
