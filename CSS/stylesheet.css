@@ -4161,7 +4161,7 @@ padding. */
 
     #optimize-heading {
         font-family: 'Poppins', sans-serif;
-        font-size: var(--font-size-lg);
+        font-size: var(--font-size-xl);
         text-align: left;
         font-weight: light 300;
         color: rgb(0, 0, 139);
@@ -4171,10 +4171,10 @@ padding. */
 
     #optimize-text {
         font-family: 'Poppins', sans-serif;
-        font-size: var(--font-size-md);
+        font-size: var(--font-size-sm);
         text-align: left;
         font-weight: 300;
-        line-height: 2.4rem;
+        line-height: 2.5rem;
         color: 141414;
     }
 
@@ -4335,8 +4335,9 @@ padding. */
         font-size: var(--font-size-sm);
         text-align: left;
         font-weight: 300;
+        line-height: 2.5rem;
         /* color: rgb(0, 0, 139); */
-        color: 141414;
+
     }
 
     .empower-right {
@@ -4405,14 +4406,6 @@ padding. */
         color: white;
     }
 
-    #empower-text {
-        font-family: 'Poppins', sans-serif;
-        font-size: var(--font-size-md);
-        text-align: left;
-        font-weight: 300;
-        /* color: rgb(0, 0, 139); */
-        color: 141414;
-    }
 
     .power-btn {
         display: inline-block;
