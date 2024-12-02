@@ -893,12 +893,12 @@
         height: auto;
         border-radius: 5px;
         box-shadow: 4px 4px 8px 2px rgb(212, 211, 211);
-        margin-left: 6rem;
+        margin-left: 7rem;
     }
 
     #adv-cloud-h2 {
         font-family: 'Poppins', sans-serif;
-        font-size: var(--font-size-md);
+        font-size: var(--font-size-medlg);
         font-weight: 600;
         color: black;
         margin-bottom: .8rem;
