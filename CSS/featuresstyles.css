@@ -804,6 +804,7 @@
         font-weight: 400;
         line-height: 2.5rem;
         margin-top: 0;
+        margin-bottom: 5rem;
         text-align: center;
     }
 
@@ -818,20 +819,21 @@
     /* Container for the differentiators section columns */
 
     .diff-columns-div {
-        width: 100vw;
+        width: 90vw;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        margin-top: 5rem;
-        padding: 0 10rem 0 12rem;
-        gap: 2rem;
+        justify-items: center;
+        margin: 0 auto;
+        padding: 0 8rem;
+        gap: 1rem;
+        box-sizing: border-box;
     }
 
     .diff-categories {
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
+        /* align-items: center; */
         padding: 0;
-
     }
 
     .diff-images {
@@ -839,7 +841,7 @@
         height: auto;
         margin-bottom: 1.5rem;
         border-radius: 5px;
-        justify-self: center;
+        align-self: center;
     }
 
     .diff-h2 {
@@ -847,8 +849,8 @@
         font-size: var(--font-size-md);
         font-weight: 600;
         color: rgb(0, 0, 139);
-        margin-bottom: 1rem;
-        margin-top: 1rem;
+        margin: 1rem 0 1rem 3rem;
+        padding: 0;
         text-align: left;
         line-height: 1.5rem;
     }
@@ -858,10 +860,11 @@
         font-size: var(--font-size-xs);
         font-weight: 400;
         line-height: 2.3rem;
-        margin-top: 0;
+        margin: 0 2rem 0 3rem;
         text-align: left;
         color: rgb(74, 74, 74);
-        padding: 0 1rem 0 0;
+        padding: 0;
+        box-sizing: border-box;
     }
 
     /*------------------ADVANCED CLOUD 1681-----------------*/
@@ -878,6 +881,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         justify-content: center;
+        gap: 1rem;
     }
 
     .adv-cloud-left {
