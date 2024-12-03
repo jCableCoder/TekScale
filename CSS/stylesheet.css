@@ -3543,7 +3543,7 @@ padding. */
         position: relative;
         display: inline-block;
         height: 100%;
-        margin-left: 4rem;
+        margin-left: 6rem;
     }
 
     #optimize-img {
@@ -3572,11 +3572,11 @@ padding. */
     }
 
     .optimize-right {
-        display: flex;
+        display: block;
         justify-content: center;
-        align-items: flex-start;
+        align-items: center;
         height: 100%;
-        width: 70%;
+        width: 60%;
     }
 
     #optimize-heading {
