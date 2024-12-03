@@ -248,6 +248,7 @@
         font-weight: 600;
         color: rgb(0, 0, 139);
         margin-bottom: 3rem;
+        animation: slideInFromLeft 0.5s ease-in;
     }
 
     #diff-paragraph {
