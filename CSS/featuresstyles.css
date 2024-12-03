@@ -969,6 +969,8 @@
 
     /*------------------DIFFERENTIATORS 1681-----------------*/
 
+    /* Overarching Differentiators section */
+
     .diff-section {
         width: 100vw;
         height: auto;
@@ -1020,12 +1022,12 @@
         width: 90vw;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        justify-items: center;
         margin: 0 auto;
-        padding: 0 8rem;
-        gap: 1rem;
-        box-sizing: border-box;
+        padding: 0 10rem;
+        gap: 2rem;
     }
+
+
 
     .diff-categories {
         display: flex;

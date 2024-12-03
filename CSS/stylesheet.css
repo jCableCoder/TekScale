@@ -1288,22 +1288,23 @@ padding. */
     }
 
     .optimize-right {
-        display: block;
-        justify-content: center;
-        align-items: center;
-        /* height: 100%; */
+        display: grid;
+        grid-template-columns: 1fr;
+        height: auto;
         width: 100vw;
-        padding: 1.6rem;
+        padding: 2.4rem;
+        gap: 0;
     }
 
     #optimize-heading {
         font-family: 'Poppins', sans-serif;
-        font-size: var(--font-size-md);
+        font-size: var(--font-size-medsm);
         text-align: left;
         font-weight: 600;
         color: rgb(0, 0, 139);
-        line-height: 2.1rem;
+        line-height: 2rem;
         margin-top: 1rem;
+        margin-bottom: 0;
 
     }
 
