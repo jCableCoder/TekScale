@@ -1321,6 +1321,7 @@ padding. */
 
     #optimize-btn-div {
         justify-self: center;
+        align-self: center;
     }
 
     /* Inline-block combines the layout flexibility of inline elements with the formatting power of block elements, 

@@ -171,7 +171,7 @@
     }
 
 
-    #tekscale-logo {
+    #tekscale-features-logo {
         max-width: 50%;
         height: auto;
         margin-left: 1.5rem;
@@ -181,7 +181,8 @@
 
 
     .features-banner-section {
-        height: 400px;
+        width: 100vw;
+        height: auto;
         background: linear-gradient(to right, darkblue 30%, rgba(0, 0, 0, 0)),
             url('/Images/FeaturesTech.jpg');
         background-position: center center !important;
@@ -191,40 +192,117 @@
         color: #f4f4f4;
         position: relative;
         margin: 0 auto;
-    }
-
-    #features-h1 {
-        font-family: 'Poppins', sans-serif;
-        font-size: 3rem;
-        font-weight: 500;
+        padding-bottom: 3rem;
     }
 
     .features-text {
         font-family: 'Poppins', sans-serif;
-        font-size: 30px;
-        font-weight: 400;
-        line-height: 1.5;
         margin-bottom: 1rem;
         padding-top: 3rem;
-        margin-left: 22rem;
+        margin-left: 2rem;
         /* animation: slideInFromTop 1s ease-in; */
-        display: grid;
-        grid-template-rows: 1fr 1fr;
+        display: block;
         align-items: center;
+        padding-right: 2rem;
     }
 
+    #features-h1 {
+        font-family: 'Poppins', sans-serif;
+        font-size: var(--font-size-md);
+        font-weight: 600;
+    }
 
     .tools-class {
-        width: 40%;
+        width: 100%;
 
     }
 
     #tools {
         font-family: 'Poppins', sans-serif;
-        font-size: 30px;
+        font-size: var(--font-size-xxxxs);
         font-weight: 400;
-        line-height: 1.5;
+        line-height: 1.5rem;
         margin-bottom: 1rem;
+    }
+
+    /*------------------DIFFERENTIATORS 600-----------------*/
+
+    .diff-section {
+        width: 100vw;
+        height: auto;
+        padding: 3rem 0;
+        background-color: white;
+    }
+
+    .diff-text-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 2rem;
+    }
+
+    #diff-h1 {
+        font-family: 'Poppins', sans-serif;
+        font-size: var(--font-size-medsm);
+        font-weight: 600;
+        color: rgb(0, 0, 139);
+        margin-bottom: 3rem;
+    }
+
+    #diff-paragraph {
+        display: none;
+    }
+
+    #thrive {
+        display: none;
+    }
+
+    .diff-columns-div {
+        width: 100vw;
+        display: block;
+        margin: 0 auto;
+        padding: 0 1rem;
+
+    }
+
+    .diff-categories {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+
+    }
+
+    .diff-images {
+        width: 90%;
+        height: auto;
+        margin-bottom: 0 auto;
+        border-radius: 5px;
+    }
+
+    .diff-h2 {
+        font-family: 'Poppins', sans-serif;
+        font-size: var(--font-size-xs);
+        font-weight: 600;
+        color: rgb(0, 0, 139);
+        margin-bottom: 1rem;
+        margin-top: 1.5rem;
+        margin-right: 1.6rem;
+        text-align: left;
+        line-height: 1.5rem;
+    }
+
+    .diff-details {
+        font-family: 'Poppins', sans-serif;
+        font-size: var(--font-size-xxxs);
+        font-weight: 400;
+        line-height: 1.8rem;
+        margin-top: 0;
+        margin-bottom: 3rem;
+        text-align: left;
+        color: rgb(74, 74, 74);
+        padding: 0 1.5rem;
     }
 
     /*------------FOOTER 600----------------*/
