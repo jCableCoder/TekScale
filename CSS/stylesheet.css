@@ -1289,12 +1289,11 @@ padding. */
     }
 
     .optimize-right {
-        display: flex;
+        display: block;
         justify-content: center;
         align-items: center;
         /* height: 100%; */
         width: 100vw;
-        z-index: 250;
         padding: 1.6rem;
     }
 
