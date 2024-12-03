@@ -294,6 +294,19 @@
         line-height: 1.5rem;
     }
 
+    .diff-h2a {
+        font-family: 'Poppins', sans-serif;
+        font-size: var(--font-size-xs);
+        font-weight: 600;
+        color: rgb(0, 0, 139);
+        margin-bottom: .7rem;
+        margin-top: 1.5rem;
+        margin-right: 1.9rem;
+        text-align: left;
+        line-height: 1.5rem;
+
+    }
+
     .diff-details {
         font-family: 'Poppins', sans-serif;
         font-size: var(--font-size-xxxs);
