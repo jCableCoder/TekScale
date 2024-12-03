@@ -319,6 +319,118 @@
         padding: 0 1.5rem;
     }
 
+    /*------------------ADVANCED CLOUD 600-----------------*/
+
+    .advanced-cloud-section {
+        max-width: 100vw;
+        max-height: auto;
+        background: url('/Images/Modern City.jpg');
+        background-position: 10% 10%;
+        background-size: cover !important;
+        background-repeat: no-repeat !important;
+        background-color: rgb(0, 0, 139);
+        color: #f4f4f4;
+        position: relative;
+        margin: 0 auto;
+        width: 100vw;
+        height: auto;
+        padding: 16rem 0 0rem 0;
+        margin: 0 auto;
+        color: white;
+    }
+
+    .advanced-cloud-section::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(0, 0, 139, 0.7);
+        z-index: 1;
+        /* Ensure the overlay sits above the background */
+    }
+
+    .adv-cloud-div {
+        width: 100vw;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .adv-cloud-left {
+        display: block;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+
+    #adv-cloud-image {
+        display: none;
+    }
+
+    .adv-cloud-right {
+        margin: 0 auto;
+    }
+
+    #adv-cloud-h2 {
+        font-family: 'Poppins', sans-serif;
+        font-size: var(--font-size-medsm);
+        font-weight: 600;
+        color: white;
+        margin-bottom: .8rem;
+        margin-top: 1.5rem;
+        position: relative;
+        bottom: 14rem;
+        z-index: 1;
+        text-align: center;
+    }
+
+    #adv-cloud-paragraph {
+        font-family: 'Poppins', sans-serif;
+        font-size: var(--font-size-xxs);
+        font-weight: 400;
+        line-height: 1.8rem;
+        margin-top: 0;
+        margin-bottom: 2rem;
+        text-align: left;
+        padding: 0 2.5rem;
+        color: white;
+        position: relative;
+        bottom: 13rem;
+        text-align: left;
+        z-index: 1;
+    }
+
+    .adv-cloud-ul {
+        list-style-type: none;
+        /* Remove default bullets */
+        padding: 0;
+        position: relative;
+        bottom: 13rem;
+        z-index: 1;
+
+    }
+
+    .adv-cloud-li {
+        font-family: 'Poppins', sans-serif;
+        font-size: var(--font-size-xxxs);
+        font-weight: 400;
+        line-height: 2rem;
+        color: white;
+        padding: 0 2.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .adv-cloud-li::before {
+        content: "✔";
+        /* Unicode for a checkmark */
+        color: white;
+        font-size: var(--var-font-size-xxxs);
+        margin-right: 10px;
+        /* Space between the checkmark and the text */
+    }
+
     /*------------FOOTER 600----------------*/
 
     .footer {
@@ -354,14 +466,9 @@
     }
 
     #tekscale-footer-logo {
-
         width: 50%;
         height: auto;
         margin: 0 auto;
-
-
-
-
     }
 
     #copyright {
