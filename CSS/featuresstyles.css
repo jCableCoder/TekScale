@@ -795,7 +795,7 @@
 
     .diff-h2 {
         font-family: 'Poppins', sans-serif;
-        font-size: var(--font-size-medsm);
+        font-size: var(--font-size-sm);
         font-weight: 600;
         color: rgb(0, 0, 139);
         margin: 1rem 0 1rem 0;
@@ -807,7 +807,7 @@
 
     .diff-h2a {
         font-family: 'Poppins', sans-serif;
-        font-size: var(--font-size-medsm);
+        font-size: var(--font-size-sm);
         font-weight: 600;
         color: rgb(0, 0, 139);
         margin: 1rem 0 1rem 0;
