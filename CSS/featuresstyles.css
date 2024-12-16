@@ -1014,7 +1014,7 @@
     }
 
     .card-h3 {
-        font-size: var(--font-size-smish);
+        font-size: var(--font-size-xs);
         font-weight: 600;
         color: black;
         margin: 1rem 0;
