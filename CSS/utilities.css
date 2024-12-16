@@ -12,6 +12,9 @@ to maintain consistency. These types of files typically focus on common design p
     --dark-color: #b0144d;
     --light-color: #f4f4f4;
     --success-color: #5cb85c;
+    --card-light-bg-color: #F4F5F9;
+    --primary-blue: rgb(0, 0, 139);
+    --hover-blue: rgba(0, 0, 139, 0.238);
 }
 
 :root {
